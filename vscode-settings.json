@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.codeLens": false,
+    "window.zoomLevel": -1,
+    "editor.renderWhitespace": "all",
+    "extensions.ignoreRecommendations": false,
+    "git.enableSmartCommit": true,
+    "window.menuBarVisibility": "toggle",
+    "editor.rulers": [80]
+}
