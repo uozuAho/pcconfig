@@ -1,0 +1,12 @@
+[
+	{ "keys": ["ctrl+e"], "command": "find_under_expand" },
+	{ "keys": ["ctrl+r"], "command": "soft_undo" },
+	{ "keys": ["f12"], "command": "goto_definition" },
+
+	{ "keys": ["alt+left"], "command": "jump_back" },
+	{ "keys": ["alt+right"], "command": "jump_forward" },
+
+	{ "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+	{ "keys": ["ctrl+w"], "command": "don't close my file!" }
+]
