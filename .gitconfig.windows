@@ -1,0 +1,16 @@
+[user]
+	name = me
+	email = me@me.com
+[core]
+	editor = \"/c/Program Files/Sublime Text 3/sublime_text.exe\" -n -w
+[push]
+	default = simple
+[alias]
+	co = checkout
+	cob = checkout -b
+	cm = commit -m
+	st = status
+	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
+	rb = rebase
+[credential]
+	helper = wincred

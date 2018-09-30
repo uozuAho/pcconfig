@@ -1,0 +1,22 @@
+[core]
+	editor = subl -n -w
+[user]
+	email = me@me.com
+	name = me
+[diff]
+	tool = meld
+[difftool "meld"]
+	cmd = meld
+[push]
+	default = simple
+[alias]
+	st = status
+	co = checkout
+	cob = checkout -b
+	rb = rebase
+	br = branch
+	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
+[credential]
+	helper = cache
+[cola]
+	spellcheck = false
