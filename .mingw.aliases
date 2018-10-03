@@ -32,5 +32,9 @@ alias dstopall='docker stop $(docker ps -q)'
 # pg cli with default postgres db on localhost (psql sucks!)
 alias pgcli="winpty docker run -it --rm --net host pygmy/pgcli postgres://postgres:postgres@localhost:5432"
 
+# default pg container, logging all statements to stdout
+alias pgdbg="docker run --name pgdbg --rm -d -p 5432:5432 postgres -c 'log_statement=all' \
+&& docker logs pgdbg -f 2>&1"
+
 # redis cli with assuming redis accessible @ localhost:6379
 alias redis-cli="winpty docker run -it --rm --net host redis redis-cli"
