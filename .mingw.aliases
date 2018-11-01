@@ -14,6 +14,12 @@ alias tree="cmd //c tree //f"
 
 
 # ------------------------------------------------------
+## tortoisegit
+alias tglog="TortoiseGitProc /command:log /path:."
+alias tgcm="TortoiseGitProc /command:commit /path:."
+
+
+# ------------------------------------------------------
 ## C# things
 
 # print c# packages matching the pattern
