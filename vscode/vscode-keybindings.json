@@ -1,33 +1,25 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+g",                "command": "workbench.action.showAllSymbols" },
-    { "key": "ctrl+d",                "command": "editor.action.deleteLines",
-                                      "when": "editorTextFocus && !editorReadonly"
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus && !editorReadonly"
     },
     {
         "key": "alt+left",
         "command": "workbench.action.navigateBack"
     },
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack"
-    },
-    {
         "key": "alt+right",
         "command": "workbench.action.navigateForward"
     },
     {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward"
-    },
-    {
         "key": "f11",
         "command": "editor.action.referenceSearch.trigger",
-        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
-    },
-    {
-        "key": "shift+f12",
-        "command": "-editor.action.referenceSearch.trigger",
         "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
     },
     {
@@ -36,26 +28,12 @@
         "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
     },
     {
-        "key": "ctrl+f12",
-        "command": "-editor.action.goToImplementation",
-        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
         "key": "ctrl+b",
         "command": "workbench.action.tasks.build"
     },
     {
-        "key": "ctrl+shift+b",
-        "command": "-workbench.action.tasks.build"
-    },
-    {
         "key": "ctrl+shift+up",
         "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+up",
-        "command": "-editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
@@ -64,18 +42,8 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+e",
         "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+d",
-        "command": "-editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
     },
     {
@@ -84,18 +52,8 @@
         "when": "isInDiffEditor"
     },
     {
-        "key": "f7",
-        "command": "-editor.action.diffReview.next",
-        "when": "isInDiffEditor"
-    },
-    {
         "key": "ctrl+up",
         "command": "editor.action.diffReview.prev",
-        "when": "isInDiffEditor"
-    },
-    {
-        "key": "shift+f7",
-        "command": "-editor.action.diffReview.prev",
         "when": "isInDiffEditor"
     },
     {
