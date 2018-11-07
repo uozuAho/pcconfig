@@ -2,7 +2,7 @@
 [
     {
         "key": "ctrl+g",
-        "command": "workbench.action.showAllSymbols"
+        "command": "workbench.action.gotoLine"
     },
     {
         "key": "ctrl+d",
@@ -60,5 +60,9 @@
         "key": "ctrl+shift+l",
         "command": "editor.action.insertCursorAtEndOfEachLineSelected",
         "when": "editorTextFocus"
-    }
+    },
+    { 
+        "key": "ctrl+shift+s",
+        "command": "workbench.action.files.saveAll"
+    },
 ]
