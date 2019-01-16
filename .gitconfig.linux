@@ -12,12 +12,16 @@
 [push]
 	default = simple
 [alias]
-	st = status
+	p = pull --prune
 	co = checkout
 	cob = checkout -b
+	cm = commit -m
+	cam = commit -am
+	st = status
+	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
 	rb = rebase
 	br = branch
-	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
+	ch = checkout
 [credential]
 	helper = cache
 [cola]
