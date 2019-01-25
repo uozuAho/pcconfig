@@ -20,8 +20,6 @@
 	st = status
 	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
 	rb = rebase
-	br = branch
-	ch = checkout
 [credential]
 	helper = cache
 [cola]
