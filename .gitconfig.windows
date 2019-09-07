@@ -2,7 +2,7 @@
 	name = me
 	email = me@me.com
 [core]
-	editor = \"/c/Program Files/Sublime Text 3/sublime_text.exe\" -n -w
+	editor = code --wait
 [push]
 	default = simple
 [alias]
