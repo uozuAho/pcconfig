@@ -5,8 +5,6 @@
 
 # source bashrc cos I'm changing this thing all the time
 alias sbashrc="source ~/.bashrc"
-# open sublime
-alias subl="/c/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
 # find, case insensitive
 alias fn="find . -iname"
 # print a file/dir tree at the current dir
