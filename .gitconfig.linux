@@ -3,12 +3,6 @@
 [user]
 	email = me@me.com
 	name = me
-[diff]
-	# todo: this doesn't work, dunno why
-	tool = meld
-[difftool "meld"]
-	# todo: this doesn't work, dunno why
-	cmd = meld
 [push]
 	default = simple
 [alias]
