@@ -61,8 +61,8 @@
         "command": "editor.action.insertCursorAtEndOfEachLineSelected",
         "when": "editorTextFocus"
     },
-    { 
+    {
         "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveAll"
-    },
+    }
 ]
