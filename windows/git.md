@@ -10,3 +10,8 @@
 
     plink.exe git@github.com
 
+- create a shortcut to pageant on the desktop
+- edit the shortcut properties
+    - start in the path where your keys are
+    - add the names of the ppk files after the target
+    - now you can double click this shortcut to load keys
