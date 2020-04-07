@@ -22,8 +22,8 @@ sudo apt-get install xfce4-i3-workspaces-plugin
     mkdir ~/.i3
     touch ~/.i3/config
 
-- get your favourite i3 config and paste it in the above file. Mine's at
-  https://gist.github.com/uozuAho/f8dbb1f8033e20afbced58ad2052fbf6
+- get your favourite i3 config and paste it in the above file.
+  - config in this dir
 
 - remove all keyboard shortcuts from dunst (xubuntu notifications):
     + edit /etc/xdg/dunst/dunstrc
