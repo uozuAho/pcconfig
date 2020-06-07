@@ -1,39 +1,13 @@
 # used in git bash for windows
 
-# ------------------------------------------------------
-## basic shell-y things
-
-# source bashrc cos I'm changing this thing all the time
+alias admin="code /c/Users/YOUR_USERNAME_HERE/gdrive/uozuDir"
 alias sbashrc="source ~/.bashrc"
-# find, case insensitive
-alias fn="find . -iname"
-# print a file/dir tree at the current dir
-alias tree="cmd //c tree //f"
 
-
-# ------------------------------------------------------
-## tortoisegit
-alias tglog="TortoiseGitProc /command:log /path:."
-alias tgcm="TortoiseGitProc /command:commit /path:."
-
-
-# ------------------------------------------------------
-## C# things
-
-# print c# packages matching the pattern
-cspacks () {
-	grep -ri "$1" --include="packages.config" .
-}
-
-
-# ------------------------------------------------------
 ## docker & friends
 alias dps='docker ps'
 alias dc='docker-compose'
 alias dcu='docker-compose up -d'
 alias dstopall='docker stop $(docker ps -q)'
-
-# pg cli with default postgres db on localhost (psql sucks!)
 alias pgcli="winpty docker run -it --rm --net host pygmy/pgcli postgres://postgres:postgres@localhost:5432"
 
 # default pg container, logging all statements to stdout
