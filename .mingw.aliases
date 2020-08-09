@@ -1,7 +1,7 @@
 # used in git bash for windows
 
-alias admin="code /c/Users/YOUR_USERNAME_HERE/gdrive/uozuDir"
 alias sbashrc="source ~/.bashrc"
+alias tglog="TortoiseGitProc /command:log /path:."
 
 ## docker & friends
 alias dps='docker ps'
@@ -16,3 +16,9 @@ alias pgdbg="docker run --name pgdbg --rm -d -p 5432:5432 postgres -c 'log_state
 
 # redis cli with assuming redis accessible @ localhost:6379
 alias redis-cli="winpty docker run -it --rm --net host redis redis-cli"
+
+# ------------------------------------------------------
+## local stuff
+
+alias woz='cd /c/woz'
+alias admin="code /c/Users/YOUR_USERNAME_HERE/gdrive/uozuDir"
