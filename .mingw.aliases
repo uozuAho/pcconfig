@@ -21,4 +21,3 @@ alias redis-cli="winpty docker run -it --rm --net host redis redis-cli"
 ## local stuff
 
 alias woz='cd /c/woz'
-alias admin="code /c/Users/YOUR_USERNAME_HERE/gdrive/uozuDir"

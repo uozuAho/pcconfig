@@ -14,5 +14,3 @@
 	st = status
 	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
 	rb = rebase
-[credential]
-	helper = wincred
