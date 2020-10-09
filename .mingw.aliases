@@ -2,6 +2,7 @@
 
 alias sbashrc="source ~/.bashrc"
 alias tglog="TortoiseGitProc /command:log /path:."
+alias randnote="find . | grep md | sed 's|\./||' | shuf -n 5"
 
 ## docker & friends
 alias dps='docker ps'
