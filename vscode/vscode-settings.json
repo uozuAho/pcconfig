@@ -12,5 +12,10 @@
     "editor.copyWithSyntaxHighlighting": false,
     "pasteImage.defaultName": "${currentFileNameWithoutExt}_",
     "pasteImage.showFilePathConfirmInputBox": true,
-    "pasteImage.filePathConfirmInputBoxMode": "onlyName"
+    "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+    "window.zoomLevel": 0,
+    "vscodeMarkdownNotes.createNoteOnGoToDefinitionWhenMissing": false,
+    "vscodeMarkdownNotes.allowPipedWikiLinks": true,
+    "vscodeMarkdownNotes.pipedWikiLinksSyntax": "desc|file",
+    "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
 }
