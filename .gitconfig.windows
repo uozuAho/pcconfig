@@ -14,3 +14,4 @@
 	st = status
 	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
 	rb = rebase
+	previewmerge = merge --no-commit --no-ff
