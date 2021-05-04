@@ -1,6 +1,12 @@
 // Place your settings in this file to overwrite the default settings
 {
     "editor.renderWhitespace": "all",
+    "editor.wordWrap": "off",
+    "files.defaultLanguage": "markdown",
+    "[markdown]":  {
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": false
+    },
     "extensions.ignoreRecommendations": false,
     "git.enableSmartCommit": true,
     "window.menuBarVisibility": "toggle",
@@ -12,10 +18,6 @@
     "editor.copyWithSyntaxHighlighting": false,
     "pasteImage.defaultName": "${currentFileNameWithoutExt}_",
     "pasteImage.showFilePathConfirmInputBox": true,
-    "pasteImage.filePathConfirmInputBoxMode": "onlyName",
-    "window.zoomLevel": 0,
-    "vscodeMarkdownNotes.createNoteOnGoToDefinitionWhenMissing": false,
-    "vscodeMarkdownNotes.allowPipedWikiLinks": true,
-    "vscodeMarkdownNotes.pipedWikiLinksSyntax": "desc|file",
-    "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
+    "pasteImage.filePathConfirmInputBoxMode": "onlyName"
+
 }
