@@ -3,13 +3,13 @@
 alias sbashrc="source ~/.bashrc"
 alias tglog="TortoiseGitProc /command:log /path:."
 alias randnote="find . | grep md | sed 's|\./||' | shuf -n 5"
+alias wcclip="wc -w < /dev/clipboard"
 
 ## docker & friends
 alias dps='docker ps'
 alias dc='docker-compose'
 alias dcu='docker-compose up -d'
 alias dstopall='docker stop $(docker ps -q)'
-alias pgcli="winpty docker run -it --rm --net host pygmy/pgcli postgres://postgres:postgres@localhost:5432"
 
 # default pg container, logging all statements to stdout
 alias pgdbg="docker run --name pgdbg --rm -d -p 5432:5432 postgres -c 'log_statement=all' \
