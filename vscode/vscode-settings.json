@@ -3,7 +3,7 @@
     "editor.renderWhitespace": "all",
     "editor.wordWrap": "off",
     "files.defaultLanguage": "markdown",
-    "[markdown]":  {
+    "[markdown]": {
         "editor.wordWrap": "off",
         "editor.quickSuggestions": false
     },
@@ -15,9 +15,9 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.copyWithSyntaxHighlighting": false,
     "pasteImage.defaultName": "${currentFileNameWithoutExt}_",
     "pasteImage.showFilePathConfirmInputBox": true,
     "pasteImage.filePathConfirmInputBoxMode": "onlyName"
-
 }
