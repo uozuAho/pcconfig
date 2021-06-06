@@ -1,9 +1,12 @@
 alias camel="sed -E 's/^(.)/\U\1/g' | sed -E 's/[ _](.)/\U\1/g'"
 alias cd="pushd"
+alias lower="tr '[:upper:]' '[:lower:]'"
 alias pd="popd"
 alias randnote="find . | grep md | sed 's|\./||' | shuf -n 5"
 alias sbashrc="source ~/.bashrc"
+alias snake="tr ' _' -"
 alias trim="sed 's/^[ \t]*//' | sed 's/[ \t]*$//'"
+alias upper="tr '[:lower:]' '[:upper:]'"
 alias wcclip="wc -w < /dev/clipboard"
 
 # windows
