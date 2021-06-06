@@ -3,6 +3,7 @@
 # Commit any working changes first!
 
 cp ~/.bashrc .bashrc.linux
+cp ~/.bash.aliases .bash.aliases
 cp ~/.gitconfig .gitconfig.linux
 cp ~/.config/Code/User/keybindings.json vscode/vscode-keybindings.json
 cp ~/.config/Code/User/settings.json vscode/vscode-settings.json
