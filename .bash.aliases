@@ -1,7 +1,10 @@
-alias sbashrc="source ~/.bashrc"
-alias wcclip="wc -w < /dev/clipboard"
+alias camel="sed -E 's/^(.)/\U\1/g' | sed -E 's/[ _](.)/\U\1/g'"
+alias cd="pushd"
+alias pd="popd"
 alias randnote="find . | grep md | sed 's|\./||' | shuf -n 5"
+alias sbashrc="source ~/.bashrc"
 alias trim="sed 's/^[ \t]*//' | sed 's/[ \t]*$//'"
+alias wcclip="wc -w < /dev/clipboard"
 
 # windows
 alias tglog="TortoiseGitProc /command:log /path:."
