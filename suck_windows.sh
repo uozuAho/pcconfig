@@ -2,7 +2,7 @@
 # Suck all config from the filesystem to this project.
 # Commit any working changes first!
 
-cp ~/.bashrc .bashrc.windows
+cp ~/.bashrc .bashrc
 cp ~/.bash.aliases .bash.aliases
 cp ~/.gitconfig .gitconfig.windows
 cp ~/"AppData/Roaming/Code/User/keybindings.json" "vscode/vscode-keybindings.json"
