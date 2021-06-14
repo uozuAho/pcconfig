@@ -1,1 +1,16 @@
+# ------------------------------------------
+# better history
+HISTFILESIZE=2000
+HISTSIZE=2000
+HISTCONTROL=ignoredups
+HISTIGNORE='ls:bg:fg:history:cd'
+# append instead of overwrite
+shopt -s histappend
+# save all lines of a multiple-line command in the same entry
+shopt -s cmdhist
+# After each command, append to the history file and reread it
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$"\n"}history -a; history -c; history -r"
+# ------------------------------------------
+
+# my aliases
 source ~/.bash.aliases
