@@ -3,7 +3,7 @@
 HISTFILESIZE=2000
 HISTSIZE=2000
 HISTCONTROL=ignoredups
-HISTIGNORE='ls:bg:fg:history:cd'
+HISTIGNORE='ls:bg:fg:history:pwd'
 # append instead of overwrite
 shopt -s histappend
 # save all lines of a multiple-line command in the same entry
