@@ -1,0 +1,4 @@
+alias brave="/c/Program\ Files/BraveSoftware/Brave-Browser/Application/brave.exe --incognito"
+alias wcclip="wc -w < /dev/clipboard"
+alias tglog="TortoiseGitProc /command:log /path:."
+alias woz='cd /c/woz'

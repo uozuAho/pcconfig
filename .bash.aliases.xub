@@ -1,0 +1,2 @@
+alias wcclip="xclip -o | wc -w"
+alias woz='cd ~/uozu'

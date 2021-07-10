@@ -1,3 +1,5 @@
+# linux distros come with their own .bashrc, this is mine
+
 # ------------------------------------------
 # better history
 HISTFILESIZE=2000
@@ -14,3 +16,6 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$"\n"}history -a; histor
 
 # my aliases
 source ~/.bash.aliases
+# platform-specific
+# source ~/.bash.aliases.windows
+# source ~/.bash.aliases.xub
