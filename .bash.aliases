@@ -1,7 +1,5 @@
 alias camel="sed -E 's/^(.)/\U\1/g' | sed -E 's/[ _](.)/\U\1/g'"
-alias cd="pushd"
 alias lower="tr '[:upper:]' '[:lower:]'"
-alias pd="popd"
 alias randnote="find . | grep md | sed 's|\./||' | shuf -n 5"
 alias randquote='cat $(grep -rl "#quote" | sed "s|\./||" | shuf -n 1)'
 alias sbashrc="source ~/.bashrc"
