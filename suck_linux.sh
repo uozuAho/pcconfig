@@ -5,6 +5,6 @@
 cp ~/.bashrc.woz .
 cp ~/.bash.aliases .
 cp ~/.bash.aliases.xub .
-cp ~/.gitconfig .gitconfig.linux
+cp ~/.gitconfig .
 cp ~/.config/Code/User/keybindings.json vscode/vscode-keybindings.json
 cp ~/.config/Code/User/settings.json vscode/vscode-settings.json
