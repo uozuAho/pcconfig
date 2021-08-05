@@ -1,8 +1,8 @@
-[core]
-	editor = code --wait
 [user]
 	email = me@me.com
 	name = me
+[core]
+	editor = code --wait
 [push]
 	default = simple
 [alias]
@@ -12,10 +12,8 @@
 	cm = commit -m
 	cam = commit -am
 	st = status
-	lg = log --pretty=oneline --abbrev-commit --decorate --graph --all
+	lg = log --pretty=oneline --abbrev-commit --decorate --graph
 	rb = rebase
 	previewmerge = merge --no-commit --no-ff
 [credential]
 	helper = cache
-[cola]
-	spellcheck = false
