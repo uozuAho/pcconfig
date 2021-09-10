@@ -4,3 +4,4 @@ alias psy="brave https://www.youtube.com/watch?v=r_XrdBIBMZs"
 alias tglog="TortoiseGitProc /command:log /path:."
 alias wcclip="wc -w < /dev/clipboard"
 alias woz='cd /c/woz'
+alias onedrive_reset='/c/Users/Warwick.Stone/AppData/Local/Microsoft/OneDrive/OneDrive.exe /reset'
