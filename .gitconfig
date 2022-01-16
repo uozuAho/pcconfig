@@ -5,6 +5,10 @@
 	editor = code --wait
 [push]
 	default = simple
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
 [alias]
 	p = pull --prune
 	co = checkout
