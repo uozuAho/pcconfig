@@ -1,0 +1,5 @@
+alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
+alias dnb="firefox -private -new-window 'https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk'"
+alias psy="firefox -private -new-window 'https://www.youtube.com/watch?v=r_XrdBIBMZs'"
+alias woz='cd /Users/Warwick.Stone/woz'
+alias proj='cd /Users/Warwick.Stone/woz/proj'
