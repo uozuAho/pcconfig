@@ -9,8 +9,6 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source ~/.woz.aliases
-
-# TODO: fix my zshrc in pcconfig, bring back here
-# TODO: is my git prompt good?
-# TODO: do git completions work good?
+source ~/.bash.aliases
+source ~/.woz.aliases.mac
+source ~/.woz.aliases.mac.myob
