@@ -1,0 +1,11 @@
+alias mauthl="myob-auth l"
+alias mauthk="myob-auth k -e europa-preprod"
+alias mauthkprod="myob-auth k -e europa"
+alias compliancedb_sit="myob-auth kube db-proxy -d tax-compliance-sit -n tax"
+
+# x64 dotnet needed for 3.1. No arm64 distribution
+alias dotnet='/usr/local/share/dotnet/x64/dotnet'
+
+# nvm. prereq: brew update; brew install nvm
+export NVM_DIR=~/.nvm
+source /opt/homebrew/opt/nvm/nvm.sh
