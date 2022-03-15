@@ -1,6 +1,16 @@
-alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
-alias dnb="firefox -private -new-window 'https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk' &!"
-alias psy="firefox -private -new-window 'https://www.youtube.com/watch?v=r_XrdBIBMZs' &!"
-alias woz='cd /Users/Warwick.Stone/woz'
-alias proj='cd /Users/Warwick.Stone/woz/proj'
-alias ls='ls -G'
+export ZSH="$HOME/.oh-my-zsh"
+
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+source ~/.woz.aliases
+
+# TODO: fix my zshrc in pcconfig, bring back here
+# TODO: is my git prompt good?
+# TODO: do git completions work good?
