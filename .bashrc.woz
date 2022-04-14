@@ -16,6 +16,7 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$"\n"}history -a; histor
 
 # my aliases
 source ~/.bash.aliases
+source ~/.music_youtubes
 # platform-specific
 # source ~/.bash.aliases.windows
 # source ~/.bash.aliases.xub

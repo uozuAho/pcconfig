@@ -12,6 +12,7 @@ function install_oh_my_zsh {
 function copy_my_dotfiles {
   cp .zshrc.mac ~/.zshrc
   cp .bash.aliases ~
+  cp .music_youtubes ~
   cp .woz.aliases.mac ~
   cp .woz.aliases.mac.myob ~
 }

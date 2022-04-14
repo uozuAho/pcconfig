@@ -10,5 +10,6 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.bash.aliases
+source ~/.music_youtubes
 source ~/.woz.aliases.mac
 source ~/.woz.aliases.mac.myob
