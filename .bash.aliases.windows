@@ -1,6 +1,6 @@
 alias firefox="/c/Program\ Files/Mozilla\ Firefox/firefox.exe"
-alias dnb="firefox -private -new-window https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk"
-alias psy="firefox -private -new-window https://www.youtube.com/watch?v=r_XrdBIBMZs"
+alias dnb="firefox -private-window https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk"
+alias psy="firefox -private-window https://www.youtube.com/watch?v=r_XrdBIBMZs"
 alias tglog="TortoiseGitProc /command:log /path:."
 alias wcclip="wc -w < /dev/clipboard"
 alias woz='cd /c/woz'
