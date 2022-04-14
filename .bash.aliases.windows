@@ -1,6 +1,6 @@
 alias firefox="/c/Program\ Files/Mozilla\ Firefox/firefox.exe"
 alias dnb='firefox -private-window $(shuf -e -n 1 "${dnb_youtubes[@]}")'
-alias psy='firefox -private-window $(shuf -e -n 1 "${psy_youtubes[@]}"'
+alias psy='firefox -private-window $(shuf -e -n 1 "${psy_youtubes[@]}")'
 alias tglog="TortoiseGitProc /command:log /path:."
 alias wcclip="wc -w < /dev/clipboard"
 alias woz='cd /c/woz'
