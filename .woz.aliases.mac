@@ -1,4 +1,5 @@
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
+# note: shuf requires coreutils: `brew install coreutils`
 alias dnb='firefox -private-window $(shuf -e -n 1 "${dnb_youtubes[@]}") &!'
 alias psy='firefox -private-window $(shuf -e -n 1 "${psy_youtubes[@]}") &!'
 alias woz='cd /Users/Warwick.Stone/woz'
