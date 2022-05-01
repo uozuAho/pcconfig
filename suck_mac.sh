@@ -1,3 +1,6 @@
 #!/bin/bash
 cp ~/.zshrc .zshrc.mac
-cp ~/.woz.aliases .woz.aliases.mac
+cp ~/.bash.aliases .
+cp ~/.music_youtubes .
+cp ~/.woz.aliases.mac .
+cp ~/.woz.aliases.mac.myob .
