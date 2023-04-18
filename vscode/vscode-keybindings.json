@@ -64,5 +64,15 @@
     {
         "key": "ctrl+shift+s",
         "command": "workbench.action.files.saveAll"
-    }
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "editor.action.openLink",
+        "when": "editorTextFocus"
+    },
+    { 
+        "key": "ctrl+enter",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
 ]
