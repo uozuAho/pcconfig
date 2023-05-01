@@ -70,9 +70,77 @@
         "command": "editor.action.openLink",
         "when": "editorTextFocus"
     },
-    { 
+    {
         "key": "ctrl+enter",
         "command": "editor.action.revealDefinition",
         "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    // vim-like cursor control. I remap caps lock to ctrl
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "cursorLeftSelect"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorUp",
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "cursorUpSelect",
+    },
+    {
+        "key": "ctrl+;",
+        "command": "cursorRight",
+    },
+    {
+        "key": "ctrl+;",
+        "command": "cursorRight",
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "cursorRightSelect",
+    },
+    {
+        "key": "ctrl+i",
+        "command": "cursorEnd",
+        "when": "textInputFocus",
+        "args": {
+            "sticky": false
+        }
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus",
+        "args": {
+            "sticky": false
+        }
+    },
+    {
+        "key": "ctrl+u",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
     },
 ]
