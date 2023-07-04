@@ -48,13 +48,13 @@
     },
     {
         "key": "ctrl+down",
-        "command": "editor.action.diffReview.next",
-        "when": "isInDiffEditor"
+        "command": "workbench.action.compareEditor.nextChange",
+        "when": "textCompareEditorVisible"
     },
     {
         "key": "ctrl+up",
-        "command": "editor.action.diffReview.prev",
-        "when": "isInDiffEditor"
+        "command": "workbench.action.compareEditor.previousChange",
+        "when": "textCompareEditorVisible"
     },
     {
         "key": "ctrl+shift+l",
