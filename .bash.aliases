@@ -7,6 +7,8 @@ alias sbashrc="source ~/.bashrc"
 alias snake="tr ' _' -"
 alias trim="sed 's/^[ \t]*//' | sed 's/[ \t]*$//'"
 alias upper="tr '[:lower:]' '[:upper:]'"
+alias hours="cat /dev/clipboard | python ~/.hours.py"
+alias plot="cat /dev/clipboard | plot"  # requires https://github.com/uozuAho/plot_clipboard
 
 ## docker & friends
 alias dps='docker ps'

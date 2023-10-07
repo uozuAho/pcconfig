@@ -8,4 +8,4 @@ alias woz='cd /c/woz'
 # a non-symlinked dir:
 alias onedrivesync='touch /c/onedrive/OneDrive\ -\ MYOB/odsync; rm /c/onedrive/OneDrive\ -\ MYOB/odsync;'
 alias odsync=onedrivesync
-alias plot='cat /dev/clipboard | plot.exe'  # requires https://github.com/uozuAho/plot_clipboard
+alias onedrive_reset='/c/Users/uozua/AppData/Local/Microsoft/OneDrive/OneDrive.exe /reset'
