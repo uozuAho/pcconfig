@@ -1,9 +1,11 @@
-# quotes required for mac. Untested on PC/linux
+# quotes required for mac
 dnb_youtubes=(
     "https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk"
     "https://www.youtube.com/watch?v=fnFd3eYhzOk"
     "https://www.youtube.com/watch?v=aQCNALShiZ0"
     "https://www.youtube.com/watch?v=GpyMU6xrcDA"
+    "https://www.youtube.com/watch?v=se647BHCyQ0"
+    "https://www.youtube.com/watch?v=JqSQPfBbpyk"
 )
 
 psy_youtubes=(
@@ -14,4 +16,6 @@ psy_youtubes=(
     "https://www.youtube.com/watch?v=jzFr_Ja-S1w"
     "https://www.youtube.com/watch?v=ApiSnfd4Srk&list=PLr3-obTIXUD-o10678f0roBW6Z3bnd9GV"
     "https://www.youtube.com/watch?v=scXrAGPezSk"
+    "https://www.youtube.com/watch?v=qpkWz_XZm5Y"
+    "https://www.youtube.com/watch?v=wVxwHalZgKE"
 )
