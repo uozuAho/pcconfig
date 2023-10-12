@@ -1,21 +1,22 @@
 # quotes required for mac
 dnb_youtubes=(
-    "https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk"
-    "https://www.youtube.com/watch?v=fnFd3eYhzOk"
-    "https://www.youtube.com/watch?v=aQCNALShiZ0"
-    "https://www.youtube.com/watch?v=GpyMU6xrcDA&t=180"
-    "https://www.youtube.com/watch?v=se647BHCyQ0"
-    "https://www.youtube.com/watch?v=JqSQPfBbpyk"
+    "https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk" # sound territory
+    "https://www.youtube.com/watch?v=fnFd3eYhzOk" # hybrid minds liquid
+    "https://www.youtube.com/watch?v=aQCNALShiZ0" # nightlife 1 disc 1
+    "https://www.youtube.com/watch?v=GpyMU6xrcDA&t=180" # hybrid minds essential
+    "https://www.youtube.com/watch?v=se647BHCyQ0" # neurofunk ...
+    "https://www.youtube.com/watch?v=JqSQPfBbpyk" # neurofunk ...
 )
 
 psy_youtubes=(
-    "https://www.youtube.com/watch?v=r_XrdBIBMZs"
-    "https://www.youtube.com/watch?v=241RMAJezaY"
-    "https://www.youtube.com/watch?v=4l4bZTbVJ9E"
-    "https://www.youtube.com/watch?v=rZumcFzqRvw"
-    "https://www.youtube.com/watch?v=jzFr_Ja-S1w"
-    "https://www.youtube.com/watch?v=ApiSnfd4Srk&list=PLr3-obTIXUD-o10678f0roBW6Z3bnd9GV"
-    "https://www.youtube.com/watch?v=scXrAGPezSk"
-    "https://www.youtube.com/watch?v=qpkWz_XZm5Y"
-    "https://www.youtube.com/watch?v=wVxwHalZgKE"
+    "https://www.youtube.com/watch?v=r_XrdBIBMZs" # agni sutra
+    "https://www.youtube.com/watch?v=241RMAJezaY" # antaranga
+    "https://www.youtube.com/watch?v=4l4bZTbVJ9E" # pulsation
+    "https://www.youtube.com/watch?v=rZumcFzqRvw" # red moon
+    "https://www.youtube.com/watch?v=jzFr_Ja-S1w" # nano ohm uplifting
+    "https://www.youtube.com/watch?v=ApiSnfd4Srk&list=PLr3-obTIXUD-o10678f0roBW6Z3bnd9GV" # IM: more of just the same
+    "https://www.youtube.com/watch?v=scXrAGPezSk" # IM: return to the sauce
+    "https://www.youtube.com/watch?v=qpkWz_XZm5Y" # IM + yahel live in Japan
+    "https://www.youtube.com/watch?v=wVxwHalZgKE" # Bliss live
+    "https://www.youtube.com/watch?v=eiqK1ddHVGM" # Speedsound 3h mix 2023
 )
