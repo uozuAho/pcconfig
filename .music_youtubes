@@ -2,7 +2,8 @@
 dnb_youtubes=(
     "https://www.youtube.com/playlist?list=PLhFYqqslb1Hox4Tb6Hz_424xOrDVabBkk" # sound territory
     "https://www.youtube.com/watch?v=fnFd3eYhzOk" # hybrid minds liquid
-    "https://www.youtube.com/watch?v=aQCNALShiZ0" # nightlife 1 disc 1
+    "https://www.youtube.com/watch?v=aQCNALShiZ0" # nightlife 5 disc 1
+    "https://www.youtube.com/watch?v=jHGrh5eOpfQ" # nightlife 5 disc 2
     "https://www.youtube.com/watch?v=GpyMU6xrcDA&t=180" # hybrid minds essential
     "https://www.youtube.com/watch?v=JqSQPfBbpyk" # neurofunk ...
 )
@@ -10,7 +11,7 @@ dnb_youtubes=(
 psy_youtubes=(
     "https://www.youtube.com/watch?v=r_XrdBIBMZs" # agni sutra
     "https://www.youtube.com/watch?v=241RMAJezaY" # antaranga
-    "https://www.youtube.com/watch?v=4l4bZTbVJ9E" # pulsation
+    "https://www.youtube.com/watch?v=4l4bZTbVJ9E&t=110" # pulsation
     "https://www.youtube.com/watch?v=rZumcFzqRvw" # red moon
     "https://www.youtube.com/watch?v=jzFr_Ja-S1w" # nano ohm uplifting
     "https://www.youtube.com/watch?v=ApiSnfd4Srk&list=PLr3-obTIXUD-o10678f0roBW6Z3bnd9GV" # IM: more of just the same
