@@ -1,0 +1,5 @@
+# hack: get onedrive to notice changes in symlinked dirs by making a change in
+# a non-symlinked dir:
+alias onedrivesync='touch /c/onedrive/OneDrive\ -\ MYOB/odsync; rm /c/onedrive/OneDrive\ -\ MYOB/odsync;'
+alias odsync=onedrivesync
+alias onedrive_reset='/c/Users/uozua/AppData/Local/Microsoft/OneDrive/OneDrive.exe /reset'

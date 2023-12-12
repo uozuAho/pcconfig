@@ -4,8 +4,3 @@ alias psy='firefox -private-window $(shuf -e -n 1 "${psy_youtubes[@]}")'
 alias tglog="TortoiseGitProc /command:log /path:."
 alias wcclip="wc -w < /dev/clipboard"
 alias woz='cd /c/woz'
-# hack: get onedrive to notice changes in symlinked dirs by making a change in
-# a non-symlinked dir:
-alias onedrivesync='touch /c/onedrive/OneDrive\ -\ MYOB/odsync; rm /c/onedrive/OneDrive\ -\ MYOB/odsync;'
-alias odsync=onedrivesync
-alias onedrive_reset='/c/Users/uozua/AppData/Local/Microsoft/OneDrive/OneDrive.exe /reset'
