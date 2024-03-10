@@ -45,5 +45,10 @@ pushd pcconfig
 read -p "Open vs code, close it, then press a key..."
 ./disperse_linux.sh
 
-# todo
-# - remap capslock to ctrl
+# remap capslock to ctrl
+# todo: confirm this works first!!
+cp /etc/default/keyboard cat /etc/default/keyboard.bak
+# sudo cat /etc/default/keyboard \
+#     | sed s/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/
+#     > /etc/default/keyboard
+# echo "capslock remapped to ctrl, needs a restart"
